@@ -1,0 +1,59 @@
+.header {
+ background-color: #000000;
+ color: #ffffff;
+ text-shadow:5px 5px 10px white;
+ text-align: center;
+ font: italic 200% fantasy;
+ font-variant-ligatures: normal;
+ font-family: inherit;
+}
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #000000;
+ color: white;
+ text-align: center;
+ font-size: medium;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+ background-color: #bfbfbf;
+ color: #000033;
+ text-align: center;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+img {
+  max-width:100%;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+ 
+}
+

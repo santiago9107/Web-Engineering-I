@@ -1,0 +1,54 @@
+
+.slogan {
+ color: #666699;
+ font: italic 200% fantasy;
+ text-align: center;
+ font-size: larger;
+ font-family: monospace;
+}
+
+.header {
+ background-color: #9400D3;
+ text-shadow:5px 5px 10px black;
+ text-align: center;
+ font: italic 200% fantasy;
+ font-variant-ligatures: normal;
+ font-family: inherit;
+}
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #9400D3;
+ color: white;
+ text-align: center;
+ font-size: medium;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+ background-color: #30B193;
+ color: #FFFFFF;
+ text-align: center;
+ 
+}
+
+a:link {color: #009900;}
+
+a{
+font-size: 23px;}
+
+*{
+  margin:0;
+  padding:0;
+}
+a[href="https://www.sciencekids.co.nz/gamesactivities.html"]{
+color: #0033cc;
+}
+
+a[href="https://www.sciencekids.co.nz/experiments.html"]{
+color: #336600;
+}
+

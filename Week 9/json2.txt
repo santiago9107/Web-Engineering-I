@@ -1,0 +1,48 @@
+
+  [
+    { "first" : "Taylor",
+      "last"  : "Swift",
+      "address" : "Nashville TN 80134",
+      "major" : "Music",
+      "gpa"   : "4.0"
+    },
+    { "first" : "Del",
+      "last"  : "Parson",
+      "address" : "Idaho Falls ID 83234",
+      "major" : "Art",
+      "gpa"   : "3.85"
+    },
+
+    { "first" : "John",
+      "last"  : "Doe",
+      "address" : "Chicago IL 80134",
+      "major" : "Computer Science",
+      "gpa"   : "3.5"
+    },
+    { "first" : "Susan",
+      "last"  : "Smith",
+      "address" : "Idaho Falls ID 83234",
+      "major" : "Computer Engineering",
+      "gpa"   : "3.2"
+    },
+    { "first" : "Steve",
+      "last"  : "Anderson",
+      "address" : "Rexburg ID 83460",
+      "major" : "Electrical Engineering",
+      "gpa"   : "3.0"
+    },
+    { "first" : "Kelly",
+      "last"  : "Jones",
+      "address" : "Idaho Falls ID 83234",
+      "major" : "Computer Engineering",
+      "gpa"   : "3.4"
+    },
+    { "first" : "Jane",
+      "last"  : "Doe",
+      "address" : "Rexburg ID 83460",
+      "major" : "Electrical Engineering",
+      "gpa"   : "3.1"
+    }    
+
+  ]
+

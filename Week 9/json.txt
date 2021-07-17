@@ -1,0 +1,22 @@
+
+  [
+    { "first" : "John",
+      "last"  : "Doe",
+      "address" : "Chicago IL 80134",
+      "major" : "Computer Science",
+      "gpa"   : "3.5"
+    },
+    { "first" : "Susan",
+      "last"  : "Smith",
+      "address" : "Idaho Falls ID 83234",
+      "major" : "Computer Engineering",
+      "gpa"   : "3.2"
+    },
+    { "first" : "Steve",
+      "last"  : "Anderson",
+      "address" : "Rexburg ID 83460",
+      "major" : "Electrical Engineering",
+      "gpa"   : "3.0"
+    }    
+  ]
+

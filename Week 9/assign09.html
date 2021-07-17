@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 09</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+    
+</head>
+<body>
+    
+    <h1>CS213 Assignment 09-Ajax Requests</h1>
+    <p>Please select the country to display the 10 largest cities and their corresponding population in each of them.</p>
+    
+    <div class="container">
+        <div class="section">
+        <button class="btn" id = "usa">USA</button>
+        <button class="btn" id = "canada">CANADA</button>
+        <button class="btn" id = "mexico">MEXICO</button>
+        <button class="btn" id = "russia">RUSSIA</button>
+    </div>
+    </div>
+
+    <br>
+    <div class="section" id="city-display"></div>
+
+    <p>Type the filename or URL of the JSON file and press submit. Type json.txt or json2.txt</p>
+
+    <input type="text" class="inline" id="json-file-input"  value="json.txt">
+    <button class="btn btn-primary inline" onclick="receiveData()">Submit</button>
+    <div class="clearfix"></div>
+    <div id="json-display">
+   
+    <div class="container">
+        <div class="section">
+
+            <table>
+                <thead>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Adress</td>
+                    <td>Major</td>
+                    <td>GPA</td>
+                </tr>
+                </thead>
+             
+                <tbody id="res">
+
+                </tbody>
+            </table>
+
+
+    </div>
+    </div>        
+    <script src="./script.js"></script>
+</div>     
+</body>
+</html>

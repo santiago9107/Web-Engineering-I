@@ -1,0 +1,113 @@
+.center_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#flex_first {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+#flex_second {
+    display: flex;
+    flex-direction: column;
+​
+}
+​
+#flex_second_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+​
+.form-row,
+.form-row > * {
+    display: flex;
+    flex-direction: column;
+}
+​
+.form-row > fieldset {
+    display: flex;
+    flex-direction: column;
+}
+​
+.form-row > button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+​
+}
+
+
+@media screen and (min-width: 1200px) {
+  #grid_first {
+   display: grid;
+   margin: 1rem;
+   grid-template-columns: auto auto auto auto;
+              }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 600px) {
+  #grid_first {
+   display: grid;
+   margin: 1rem;
+   grid-template-columns: auto auto;
+              }
+}
+
+
+@media screen and (max-width: 599px) {
+  #grid_first {
+   display: grid;
+   margin: 1rem;
+   grid-template-columns: auto;
+              }
+}
+
+@media screen and (max-width: 599px) {
+#grid_second {
+   display: grid;
+   margin: 1rem;
+   grid-template-rows: repeat(0, 1fr);
+   grid-auto-rows: minmax(100px, auto);
+   grid-gap: 20px;
+             }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 600px){
+#grid_second {
+   display: grid;
+   margin: 1rem;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(0, 1fr);
+   grid-auto-rows: minmax(100px, auto);
+   grid-gap: 20px;
+              }
+.box1 {
+  grid-column: 1 / span 2;
+      }
+.box1 {
+  grid-row: 1 / span 2;
+      }
+}
+
+@media screen and (min-width: 1200px) {
+#grid_second {
+   display: grid;
+   margin: 1rem;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(0, 1fr);
+   grid-auto-rows: minmax(100px, auto);
+   grid-gap: 20px;
+             }
+.box1 {
+  grid-column: 1 / span 3;
+      }
+.box1 {
+  grid-row: 1 / span 2;
+      }
+}
